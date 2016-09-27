@@ -4,7 +4,7 @@ This repository, intended for the [Spring User Group Meetup](https://www.meetup.
 
 It is a patchwork of exercises taken from [scala-labs](https://github.com/scala-labs/scala-labs), the book [Scala for the Impatient](http://horstmann.com/scala/) and the Coursera course [Functional Programming Principles in Scala](https://www.coursera.org/learn/progfun1).
 
-Before starting the lab, make sure to setup your environment (section below) and optionally go through this scala quick tour (TODO: add link).
+Before starting the lab, make sure to setup your environment (section below) and optionally go through this [Scala quick tour](https://docs.google.com/presentation/d/1KowHAem2BEnUNKMMbjQJE_tHOIgVWVAmI5OajVMQIa0/edit?usp=sharing).
 
 Environment Setup
 -------
@@ -42,7 +42,7 @@ $ git clone https://github.com/damien-neveu/sg-scala-labs.git
   - `$ sbt clean compile`
 
 - Open the project within your IDE
-  - In IntelliJ : File -> Open -> `/path/to/folder/sg-scala-labs` -> Choose `SBT` -> Select `Auto Imports` only -> OK
+  - In IntelliJ : File -> Open -> `/path/to/folder/sg-scala-labs` -> Choose `SBT` -> Check `Auto-Import` only -> OK
 
 - Fix all [exercises](src/main/scala/com/meetup/scalab) so their tests pass
   - `$ sbt test`

@@ -11,10 +11,7 @@ class HelloWorldTest extends FlatSpec with ShouldMatchers {
   * such a way that the tests in this suite all succeed.
   */
   "Scala Objects" should "say hello and echo" in {
-      // The === operator used below is not an operator at all but a method in the
-      // JUnitSuite super class, which is part of the ScalaTest library. it behaves
-      // as a traditional assertEquals but produces very clear assertion errors when
-      // values don't match. In Scala, methods can be used as if they were operators.
+    // More info on scalatest Matchers at http://www.scalatest.org/user_guide/using_matchers
     HelloWorld.sayHello should equal("Hello from Scala")
     HelloWorld.echo("Echo") should equal("Echo")
   }
