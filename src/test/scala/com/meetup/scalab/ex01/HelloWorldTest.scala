@@ -45,7 +45,7 @@ class HelloWorldTest extends FlatSpec with ShouldMatchers {
   */
   "Scala Companion Object" should "serve as factory" in {
       val helloWorldInstance = HelloWorldClassAndObject("Hello")
-      "Hello" === helloWorldInstance.echo
+      "Hello" shouldBe helloWorldInstance.echo
   }
 
 }
